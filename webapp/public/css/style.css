@@ -1,0 +1,111 @@
+
+font-family: 'Share Tech Mono', monospace;
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    padding:0;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    font-size: 80px;
+    
+    
+    
+}
+
+#header {
+    width: 100%;
+    height: 45%;
+    text-align: center;
+}
+#logo {
+    height: 80%;
+    max-width: 65%;
+    vertical-align: middle;
+}
+  
+.space {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+#chatroom {
+    background-color: #efefef;
+    
+}
+
+#alias {
+    background-color: #FF3B9A;
+}
+
+
+@media only screen and (max-width: 680px) {
+    h1{
+        font-size: 2em;
+   
+    }
+    
+    #header {
+        height: 90px;
+        width: 100%;
+    }
+    
+    body {
+          background-color: black;
+         
+    padding:0;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    } 
+    
+    input{
+     
+    }
+    
+    #chatroom{
+      
+        width: 90%;
+    }
+    
+    #formcontainer{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top:0;
+        padding: 90px;
+    }
+    
+    #formalias {
+        
+        
+    }
+    #alias {
+        margin:10px;
+        width: 90%;
+       
+        
+    }
+
+        
+    }
+
+@media screen and (max-width: 600px) {
+        background-color: white;
+  
+}
+@media only screen and (max-width: 680px) {
+   
+    }
+
+footer {
+
+
+}
+
