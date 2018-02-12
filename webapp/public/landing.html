@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KANDINET</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/chat.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+</head>
+
+
+<body>
+
+<!--Display non hides current view-->
+
+<div id="loginContainer" class="containerView" style="display: none;">
+
+    <!--LOGOOOOOOOOOOOOO-->
+    <!--///////////////////////////-->
+    <!--///////////////////////////-->
+    <div id="header">
+      <span class="space"></span>
+       <img src="img/logo.svg" alt="logo" id="logo">
+    </div>
+    <!--END of LOGOOOOOOOOOOOOO-->
+    <!--///////////////////////////-->
+    <!--///////////////////////////-->
+    <!--///////////////////////////-->
+    <h2>Enter your code <br> to continue</h2>
+
+
+    <form>
+        <br>
+      <input type="text" name="" placeholder="(hint: check your bracelet)"><br>
+
+    </form>
+    
+
+</div>
+
+        
+
+    <div id="homeContainer" class="containerView" style="display: block;">
+      <div id="header">
+       <img src="img/logo.svg" alt="logo" id="logo">
+
+      </div>
+      
+      <button type="button">Click Me!</button>
+      <button type="button">Click Me!</button>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+	Username input. 
+	Submitting name executes setClientName function,
+	emitting the 'setClientName' message to the server over sockets.
+-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src = "/socket.io/socket.io.js"></script>
+<script src = "/main.js"></script>
+
+
+
+</body>
+</html>
