@@ -1,3 +1,5 @@
+
+
 body {
     background: black;
     padding:0;
@@ -9,10 +11,12 @@ body {
 }
 
 
-.containerView{
+.containerView, {
     width: 100vw;
     height:100vh;
     position: absolute;
+    vertical-align: middle;
+    text-align: center;
     
 }
 
@@ -22,21 +26,75 @@ body {
     width: 100%;
     height: 20%;
     text-align: center;
+    vertical-align: middle;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
 }
 #logo {
-    margin-top: 5px;
     height: 80%;
     max-width: 65%;
     vertical-align: middle;
 }
 
 h2 {
-    font-size: 16px;
-    width: 100%;
+    margin-top: auto;
+    font-size: 18px;
+    max-width: 100%;
     height: 3%;
     text-align: center;
     
+    
 }
+
+h3 {
+    margin-top: 10px;
+    text-align: left;
+    width:  90vw;
+}
+#buttonContainer #addContainer {
+     max-width: 65%;
+    margin: auto,0;
+}
+
+
+
+ul {
+    margin-left: 15px;
+    list-style-type: none;
+    vertical-align: middle;
+    
+}
+button  {
+    background: #333333;
+    color:white;
+    width: 70vw;
+    height: 5vh;
+    margin-top: 5vh;
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 1.5vh;
+    border-style: none;
+    
+   
+
+}
+
+input {
+    background: transparent;
+    border-bottom-color: white;
+    border-
+    
+}
+
+p { 
+    text-align: left;
+    width: 92vw;
+    overflow: hidden;
+}
+
+
+
+
 
 
 
@@ -50,14 +108,34 @@ h2 {
 /*/////////////////////////////////*/   
 @media only screen and (max-width: 680px) {
     h2 {
-        margin-top: 
+        margin-top: 10px;
     }
     
     form{
     text-align: center;
     margin-top: 12vh;
+    
 }
-
+    
+    .container-one, .container-two {
+    margin-top: 2vh;    
+    background:#333333; 
+    vertical-align: middle;
+    text-align: left;
+    margin: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height:20vh;
+    width: 95vw;
+    padding: 10px;
+            
+}
+    p {
+        height: 17vh;
+        overflow: auto;
+        display: block;
+        
+    }
     
 
  @media screen and (max-width: 600px) {
