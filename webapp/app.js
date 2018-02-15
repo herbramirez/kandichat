@@ -38,5 +38,4 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req,res){
 	console.log('serving index.html');
 	res.sendFile(__dirname + '/index.html');
-
 });
