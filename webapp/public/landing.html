@@ -92,7 +92,7 @@
 <!--BEGINNING OF ADDEVENT-->   
     
     
-    <div id="addContainer" class="addEventView" style="display: block;">
+    <div id="friendContainer" class="addEventView" style="display: none;">
 
 
     <div id="header">
@@ -101,12 +101,14 @@
     </div>
 
        <h2> To invite a friend, make a new kandi bracelet with secret phrase on it</h2>
-
+    
+  
     <form>
+       
         
       <input type="text" name="" placeholder="(hint: check your bracelet)"><br>
       <div id="button2">
-      <input type="submit" value="Submit">
+      <button onclick="myFunction()">SUBMIT</button>
 </form>
 
     </form>
@@ -114,13 +116,126 @@
 
 </div>
 
-<!--END OF ADDEVENT-->
-<!--END OF ADDEVENT-->
-<!--END OF ADDEVENT-->
-<!--END OF ADDEVENt-->
+    </div
+
+<!--END OF ADDFRIEND-->
+<!--END OF ADDFRIEND-->
+<!--END OF ADDFRIEND-->
+<!--END OF ADDFRIEND-->
+     
+     <div id="homeContainer" class="containerView" style="display: none;">
+      
+      <div id="header">
+       <img src="img/logo.svg" alt="logo" id="logo">
+       </div>
+       
+      <div id="buttonContainer">
+         <ul>
+             <li> <button onclick="myFunction()">Enter Chat</button></li>
+          
+             <li> <button onclick="myFunction()">Add Upcoming Event</button></li>
+     
+             <li> <button onclick="myFunction()">Invite a Friend</button></li>
+         </ul>
+      </div>
+      
+      <h2> Upcoming events</h2>
+       
+    <div class="container-one">
+       
+       
+       <h3>SUPER AMAZEBALLS PARTY</h3>  
+                <P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu "</P>
+           
+           
+       </div>
+       
+       <div class="container-two">
+           
+            <h3>EXCISION afterparty</h3> 
+                <P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla p"</P>
+            
+           
+       </div>
       
 
     </div>
+    
+    <!--ADDEVENTCONTAINER-->
+    <!--ADDEVENTCONTAINER-->
+    <!--ADDEVENTCONTAINER-->
+    <!--ADDEVENTCONTAINER-->
+    
+    
+       <div id="addEventContainer" class="containerView" style="display: none;">
+      
+      <div id="header">
+       <img src="img/logo.svg" alt="logo" id="logo">
+       </div>
+       
+      <div id="buttonContainer">
+         <ul>
+           <li><input type="text" name="" placeholder="EVENT NAME"></li>
+             <li><input type="text" name="" placeholder="EVENT TIME"></li>
+             <li><input type="text" name="" placeholder="EVENT DESCRIPTION"></li>
+         </ul>
+         
+         <button onclick="myFunction()">SUBMIT</button>
+      </div>
+      
+ 
+
+    </div>
+    
+    <div id="chatContainer" class="containerView" style="display:block">
+    
+     <div id="header">
+       <img src="img/logo.svg" alt="logo" id="logo">
+       </div>
+<form action="javascript:setClientName();"  id="alias">
+	<h4> Enter your Code to continue.</h4>
+	<br>
+	<input type="text" name="Nickname" value="code">
+	<br>
+	<button onclick="myFunction()">Submit</button>
+</form>
+ </div>
+
+
+<!-- Chatroom          -->
+
+
+<div id="chatroom" style="
+			height: 500px;
+			display: none; 	
+			margin: 100px;
+			position: relative;"  >
+			
+			<div id="header">
+       <img src="img/logo.svg" alt="logo" id="logo">
+       </div>
+       
+	<div style="padding:10px; height: 400px; overflow-y: scroll"</div>
+	<div style=" width:100%; position:absolute; bottom:0;"> 
+		<form action="javascript:clientMessage();" id="inputMessage">
+			<input style="
+				margin: 10px;
+                bottom: 0; 
+                width: 90%; 
+                font-size: 12px;
+                padding:5px;" type="text" name="messageContent" value="Start typing..." >
+           	<input type="submit" value="Submit">
+
+		</form>
+	</div>
+</div>
+    
+    
+    </div>
+    
+    
+   
+   
 
 
 
