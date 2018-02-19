@@ -10,247 +10,158 @@
 
 
 <body>
-
-<!--Display non hides current view-->
-
-<div id="loginContainer" class="containerView" style="display: block;">
-
-    <div id="header">
-      <span class="space"></span>
-       <img src="img/logo.svg" alt="logo" id="logo">
-    </div>
-    
-    <div class="descriptionLabel">
-    	<h2>Enter your code to continue</h2>
-    </div>
-
-    <form onforminput="">
-      <input id="codeEntryField" type="text" name="" placeholder="(hint: check your bracelet)">
-    </form>
-
-</div>
-        
-<!--BGINNING OF LOGIN PAGE-->
-<!--BGINNING OF LOGIN PAGE-->
-<!--BGINNING OF LOGIN PAGE-->
-<!--BGINNING OF LOGIN PAGE-->
-
-    <div id="homeContainer" class="containerView" style="display: none;">
-      
-      <div id="header">
-       <img src="img/logo.svg" alt="logo" id="logo">
-       </div>
-       
-      <div id="buttonContainer">
-         <ul>
-             <li> <button type="button">Enter Chat</button></li>
-          
-             <li> <button type="button">Add Upcoming Event</button></li>
-     
-             <li> <button type="button">Invite Friend</button></li>
-         </ul>
-      </div>
-      
-      <h2> Upcoming events</h2>
-       
-    <div class="container-one">
-       
-       
-       <h3>SUPER AMAZEBALLS PARTY</h3>  
-                <P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu "</P>
-           
-           
-       </div>
-       
-       <div class="container-two">
-           
-            <h3>EXCISION afterparty</h3> 
-                <P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla p"</P>
-            
-           
-       </div>
-       
-    </div>
-       
-       
-<!--END OF LOGIN PAGE-->
-<!--END OF LOGIN PAGE-->
-<!--END OF LOGIN PAGE-->
-<!--END OF LOGIN PAGE-->
-   
-<!--BEGINNING OF ADDEVENT-->
-<!--BEGINNING OF ADDEVENT-->
-<!--BEGINNING OF ADDEVENT-->
-<!--BEGINNING OF ADDEVENT-->   
-    
-    <div id="friendContainer" class="addEventView" style="display: none;">
-
-
-    <div id="header">
-      <span class="space"></span>
-       <img src="img/logo.svg" alt="logo" id="logo">
-    </div>
-
-       <h2> To invite a friend, make a new kandi bracelet with secret phrase on it</h2>
-    
-  
-    <form>
-       
-        
-      <input type="text" name="" placeholder="(hint: check your bracelet)"><br>
-      <div id="button2">
-      <button onclick="myFunction()">SUBMIT</button>
-
-    </form>
-    
-
-</div>
-
-    </div
-
-<!--END OF ADDFRIEND-->
-<!--END OF ADDFRIEND-->
-<!--END OF ADDFRIEND-->
-<!--END OF ADDFRIEND-->
-     
-     <div id="homeContainer" class="containerView" style="display: none;">
-      
-      <div id="header">
-       <img src="img/logo.svg" alt="logo" id="logo">
-       </div>
-       
-      <div id="buttonContainer">
-         <ul>
-             <li> <button onclick="myFunction()">Enter Chat</button></li>
-          
-             <li> <button onclick="myFunction()">Add Upcoming Event</button></li>
-     
-             <li> <button onclick="myFunction()">Invite a Friend</button></li>
-         </ul>
-      </div>
-      
-      <h2> Upcoming events</h2>
-       
-    <div class="container-one">
-       
-       
-       <h3>SUPER AMAZEBALLS PARTY</h3>  
-                <P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu "</P>
-           
-           
-       </div>
-       
-       <div class="container-two">
-           
-            <h3>EXCISION afterparty</h3> 
-                <P>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla p"</P>
-            
-           
-       </div>
-      
-
-    </div>
-    
-    <!--ADDEVENTCONTAINER-->
-    <!--ADDEVENTCONTAINER-->
-    <!--ADDEVENTCONTAINER-->
-    <!--ADDEVENTCONTAINER-->
-    
-    
-       <div id="addEventContainer" class="containerView" style="display: none;">
-      
-      <div id="header">
-       <img src="img/logo.svg" alt="logo" id="logo">
-       </div>
-       
-      <div id="buttonContainer">
-         <ul>
-           <li><input type="text" name="" placeholder="EVENT NAME"></li>
-             <li><input type="text" name="" placeholder="EVENT TIME"></li>
-             <li><input type="text" name="" placeholder="EVENT DESCRIPTION"></li>
-         </ul>
-         
-         <button onclick="myFunction()">SUBMIT</button>
-      </div>
-      
- 
-
-    </div>
-    
-    <div id="chatContainer" class="containerView" style="display:none">
-    
-     <div id="header">
-       <img src="img/logo.svg" alt="logo" id="logo">
-       </div>
-<form action="javascript:setClientName();"  id="alias">
-	<h4> Enter your Code to continue.</h4>
-	<br>
-	<input type="text" name="Nickname" value="code">
-	<br>
-	<button onclick="myFunction()">Submit</button>
-</form>
- </div>
-
-
-<!-- Chatroom          -->
-
-
-<div id="chatroom" style="
-			height: 500px;
-			display: none; 	
-			margin: 100px;
-			position: relative;"  >
-			
-			<div id="header">
-       <img src="img/logo.svg" alt="logo" id="logo">
-       </div>
-       
-	<div style="padding:10px; height: 400px; overflow-y: scroll"</div>
-	<div style=" width:100%; position:absolute; bottom:0;"> 
-		<form action="javascript:clientMessage();" id="inputMessage">
-			<input style="
-				margin: 10px;
-                bottom: 0; 
-                width: 90%; 
-                font-size: 12px;
-                padding:5px;" type="text" name="messageContent" value="Start typing..." >
-           	<input type="submit" value="Submit">
-
-		</form>
+	
+	
+	<!-- *******************   Login Page   ******************** -->
+	
+	<div id="loginContainer" class="containerView" style="display: none;">
+	
+	    <div id="header">
+	      <span class="space"></span>
+	       <img src="img/logo.svg" alt="logo" id="logo">
+	    </div>
+	    
+	    <div class="descriptionLabel">
+	    	<h2>Enter your code to continue</h2>
+	    </div>
+	
+	    <form onforminput="">
+	      <input id="codeEntryField" type="text" name="" placeholder="(hint: check your bracelet)">
+	    </form>
+	
 	</div>
-</div>
-    
-    
-    </div>
-    
-    
-   
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-	Username input. 
-	Submitting name executes setClientName function,
-	emitting the 'setClientName' message to the server over sockets.
--->
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src = "/socket.io/socket.io.js"></script>
-<script src = "/main.js"></script>
-
-
-
+	
+	
+	
+	<!-- *******************   Home Page   ******************** -->
+	
+	<div id="homeContainer" class="containerView" style="display: none;">
+	      
+		<div id="header">
+			<span class="space"></span>
+			<img src="img/logo.svg" alt="logo" id="logo">
+		</div>
+	    
+	    <table id="homeTable">
+		    <tr>
+			    <td class="viewCell">
+				    <div class="titleLabel">Enter Chat</div>
+				    <div class="detailIcon">
+					    <img src="img/back_button.png" alt="back_button" width="9" height="16">
+				    </div>
+			    </td>
+		    </tr>
+		    
+		    <tr>
+			    <td class="sectionTitle">
+			    	Upcoming Events
+			    </td>
+		    </tr>
+		    
+		    <tr>
+			    <td class="eventCell">
+				    <div class="eventTitle">SUPER AMAZEBALLS PARTY</div>
+				    <div class="eventDate">2.25.18 at 11pm</div>
+				    <div class="eventDescription">
+					    Go to that place with the stuff and make a left and say Larry sent you
+				    </div>
+			    </td>
+		    </tr>
+	    </table>
+	       
+	</div>
+	       
+	
+	
+	<!-- *******************   Add Friend Page   ******************** -->
+	
+	<div id="friendContainer" class="addEventView" style="display: block;">
+	
+	    <div id="header">
+	       <span class="space"></span>
+	       <img src="img/logo.svg" alt="logo" id="logo">
+	    </div>
+	    
+	    <div class="addFriendDescription">
+	    	To invite a friend, make a new kandi bracelet with secret phrase on it
+	    </div>
+		
+	    <form>
+	        <input id="codeEntryField" type="text" name="" placeholder="(hint: check your bracelet)">
+			<button class="submitButton" onclick="">SUBMIT</button>
+	    </form>
+	
+	</div>
+	
+	
+	
+	<!-- *******************   Add Friend Page   ******************** -->
+	    
+	<div id="addEventContainer" class="containerView" style="display: none;">
+	      
+	    <div id="header">
+	       <span class="space"></span>
+	       <img src="img/logo.svg" alt="logo" id="logo">
+	    </div>
+	       
+	    <div id="buttonContainer">
+	         <ul>
+	           <li><input type="text" name="" placeholder="EVENT NAME"></li>
+	             <li><input type="text" name="" placeholder="EVENT TIME"></li>
+	             <li><input type="text" name="" placeholder="EVENT DESCRIPTION"></li>
+	         </ul>
+	         
+	         <button onclick="myFunction()">SUBMIT</button>
+	    </div>
+	      
+	</div>
+	
+	
+	
+	<!-- *******************   Chat Room   ******************** -->
+	
+	<div id="chatContainer" class="containerView" style="display:none">
+	    
+	    <div id="header">
+	       <span class="space"></span>
+	       <img src="img/logo.svg" alt="logo" id="logo">
+	    </div>
+	    
+		<form action="javascript:setClientName();" id="alias">
+			<input type="text" name="Nickname" value="code">
+			<button onclick="myFunction()">Submit</button>
+		</form>
+	 </div>
+	
+	
+	<div id="chatroom" style="height: 500px; display: none; margin: 100px; position: relative;"  >
+		
+	    <div id="header">
+	       <span class="space"></span>
+	       <img src="img/logo.svg" alt="logo" id="logo">
+	    </div>
+	    
+		<div style="padding:10px; height: 400px; overflow-y: scroll"></div>
+			
+		<div style=" width:100%; position:absolute; bottom:0;"> 
+			<form action="javascript:clientMessage();" id="inputMessage">
+				<input style="
+					margin: 10px;
+	                bottom: 0; 
+	                width: 90%; 
+	                font-size: 12px;
+	                padding:5px;" type="text" name="messageContent" value="Start typing..." >
+	           	<input type="submit" value="Submit">
+	
+			</form>
+		</div>
+		
+	</div>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src = "/socket.io/socket.io.js"></script>
+	<script src = "/main.js"></script>
+	
 </body>
 </html>

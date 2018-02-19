@@ -13,6 +13,9 @@ body {
 }
 
 
+
+/*  *******************   General Classes   ********************  */
+
 .containerView, {
     width: 100vw;
     height:100vh;
@@ -21,16 +24,12 @@ body {
     text-align: center;
     
 }
-
-
-/*  General Classes  */
-
-
 #header {
     width: 100%;
     height: 20%;
     text-align: center;
     vertical-align: middle;
+	text-align: center;
     margin-top: 7vh;
     margin-bottom: 5vh;
 }
@@ -56,6 +55,7 @@ input {
 	color: white;
 	outline: none;
 	resize: none;
+    background: transparent;
 }
 
 .descriptionLabel {
@@ -63,14 +63,86 @@ input {
 	padding: 14% 20%;
 }
 
-/*	    Login Page		*/
+.submitButton {
+	float: right;
+	height: 40px;
+	padding: 0px 10px;
+	background: white;
+	text-align: center;
+	color: black;
+    font-family: 'Share Tech Mono';
+	font-size: 1em;
+	margin-right: 5%;
+}
 
+
+/*  *******************   Login Page   ********************  */
 
 #codeEntryField {
 	width: 86%;
 	margin: 0% 5%;
 }
 
+
+/*  *******************   Home Page   ********************  */
+
+#homeTable {
+	width: 100%;
+	padding: 0% 5%;
+}
+.viewCell {
+	vertical-align: middle;
+	display: table-cell;
+	background-color: #282828;
+	height: 60px;
+	padding: 0% 5%;
+}
+.titleLabel {
+	font-size: 1.3em;
+	float: left;
+}
+.detailIcon {
+	float: right;
+}
+.sectionTitle {
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	font-size: 1.4em;
+	height: 60px;
+	padding-top: 5%;
+}
+.eventCell {
+	background: #282828;
+	padding: 5%;
+}
+.eventTitle {
+	font-size: 1.3em;
+}
+.eventDate {
+	font-size: 1em;
+	color: #8F8F8F;
+	padding: 6px 0px;
+}
+.eventDescription {
+	padding: 10px 0px 0px 0px;
+    line-height: 150%;
+}
+
+
+
+/*  *******************   Add Friend Page   ********************  */
+
+.addFriendDescription {
+	font-size: 1em;
+	padding: 12% 10%;
+	text-align: left;
+}
+
+#codeEntryField {
+	width: 86%;
+	margin: 0% 5%;
+}
 
 
 
@@ -102,16 +174,7 @@ button  {
 
 }
 
-input {
-    background: transparent;
-     border-style: none;
-    border-bottom:white;
-    border-bottom-style:inset;
-   
 
-
-    
-}
 
 p { 
     text-align: left;
