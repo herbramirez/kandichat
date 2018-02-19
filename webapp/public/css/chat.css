@@ -5,9 +5,10 @@ body {
     padding:0;
     margin: 0 auto;
     width: 100vw;
-    height: 100vh;
     color: white;
-    position: relative;
+    position: relative;¸
+    text-align: center;
+    vertical-align: center;
     font-family: 'Share Tech Mono';
 }
 
@@ -21,6 +22,8 @@ body {
     
 }
 
+
+/*  General Classes  */
 
 
 #header {
@@ -38,20 +41,39 @@ body {
 }
 
 h2 {
-    margin-top: auto;
-    font-size: 18px;
-    max-width: 100%;
-    height: 3%;
-    text-align: center;
-    
-    
+    font-size: 1.25em;
+    line-height: 150%;
+}
+input {
+	border: 0;
+    border-bottom: solid #fffff 2px;
+	font-size: 1.2em;
+    font-family: 'Share Tech Mono';
+	background: #a2a2a2;
+	padding: 15px 0px 10px 15px;
+	margin: 0;
+	height: 40px;
+	color: white;
+	outline: none;
+	resize: none;
 }
 
-h3 {
-    margin-top: 10px;
-    text-align: left;
-    width:  90vw;
+.descriptionLabel {
+	text-align: center;
+	padding: 14% 20%;
 }
+
+/*	    Login Page		*/
+
+
+#codeEntryField {
+	width: 86%;
+	margin: 0% 5%;
+}
+
+
+
+
 #buttonContainer #addContainer {
      max-width: 65%;
     margin: auto,0;
@@ -68,8 +90,8 @@ ul {
 button  {
     background: #333333;
     color:white;
-    width: 70vw;
-    height: 5vh;
+    width: 20vw;
+    height: 4vh;
     margin-top: 5vh;
     vertical-align: middle;
     text-align: left;
@@ -82,8 +104,12 @@ button  {
 
 input {
     background: transparent;
-    border-bottom-color: white;
-    border-
+     border-style: none;
+    border-bottom:white;
+    border-bottom-style:inset;
+   
+
+
     
 }
 
@@ -93,7 +119,9 @@ p {
     overflow: hidden;
 }
 
-
+#addEventContainer containerView {
+    width: 100%;
+}
 
 
 
@@ -107,20 +135,118 @@ p {
 /*/////////////////////////////////*/
 /*/////////////////////////////////*/
 /*/////////////////////////////////*/   
-@media only screen and (max-width: 680px) {
-    h2 {
-        margin-top: 10px;
+@media only screen and (max-width: 670px) {
+    
+    .container-one, .container-two,  {
+	    margin-top: 2vh;    
+	    background:#333333; 
+	    vertical-align: middle;
+	    text-align: left;
+	    margin: 1;
+	    overflow-x: hidden;
+	    overflow-y: hidden;
+	    height:20vh;
+	    width: 95vw;
+	    padding: 10px;        
+	}
+	
+    p {
+        height: 17vh;
+        overflow: auto;
+        display: block;
+        
     }
     
-    form{
+    
+    #addEventContainer containerView{
+        width: 100vw;
+        height:100vh;
+    }
+
+ @media screen and (max-width: 600px) {
+
+
+}
+@media only screen and min-width: 680px and max-width: 1200px) {
+   
+    
+    #homeContainer {
+        width: 100vw;
+        height: 100vh;
+       
+        
+    }
+    
+    #homeContainer button {
+        vertical-align: middle;
+      
+      
+       
+          
+    }
+    #homeContainer #header {
+       
+        
+    }
+    
+    #homeContainer h2{
+        
+        
+    }
+    
+      #homeContainer p{
+        
+        
+    }
+    
+    #homeContainer  .container-one, .container-two {
+    margin-top: 6vh;    
+    background:white; 
+    vertical-align: middle;
+    text-align: left;
+    margin: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height:30vh;
+    width: 95vw;
+    padding: 10px;
+            
+}
+    
+    
+    
+    
+    /*ADDFRIEND*/
+    
+    #addContainer #header {
+        width: 100vw;
+        height: 100vh;;
+        
+    }
+    
+    #addContainer {
+    width: 100vw;
+    height:100vh;
+    position: absolute;
+    vertical-align: middle;
     text-align: center;
-    margin-top: 12vh;
+    margin: auto,0;
     
 }
+    #addContainer h2 {
+        font: 625px;
+        
+    }
+    
+    #addContainer form {
+        font: 125px;
+        vertical-align: middle;
+        width: 100vw;
+    }
     
     .container-one, .container-two {
     margin-top: 2vh;    
-    background:#333333; 
+    background:white; 
     vertical-align: middle;
     text-align: left;
     margin: 1;
@@ -138,12 +264,19 @@ p {
         
     }
     
-
- @media screen and (max-width: 600px) {
-
-
-}
-@media only screen and (max-width: 680px) {
+    
+    /*ADD EVENT */
+    
+    #addEventContainer li{
+      text-align: center;
+        vertical-align: center;
+      
+    }
+    
+    #addEventContainer button {
+        position:block;
+         width: 100px;;
+    }
  
    
 }
